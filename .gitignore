@@ -1,0 +1,27 @@
+# Virtual environment
+/venv/
+
+# Django files
+*.pyc
+__pycache__/
+/db.sqlite3
+/recommender_project/__pycache__/
+/core/__pycache__/
+/core/recommender/__pycache__/
+/core/management/commands/__pycache__/
+
+# Sensitive files
+.env
+secret.py
+local_settings.py
+
+# PyTorch model
+/backend/core/recommender/recommender_model.pt
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
